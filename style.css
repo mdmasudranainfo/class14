@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+#plan{
+   
+}
+
+.planbox{
+    
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    transition: .5s;
+}
+.planbox:hover .price{
+    border: 2px solid #333;
+    color: #333;
+}
+.planbox:hover{
+    background-color: #f39c12 !important;
+    color: #333 !important;
+    transform: translate(0px, -10px);
+}
+.planbox h2{
+    padding: 10px;
+    text-transform: uppercase;
+}
+.price{
+    width: 100px;
+    height: 100px;
+    border: 2px solid orange;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.price h1{
+    margin-top: 20px;
+    
+}
+.planbox p{
+    margin: 0;
+    
+
+} 
+
+/* team start */
+
+.card{
+    width: 300px;
+    height: 330px;
+    overflow: hidden;
+    margin: auto;
+  
+    position: relative;
+   
+
+}
+.card h3{
+    padding: 0;
+    margin: 0;
+}
+.card i{
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+}
+.card p{
+    padding: 0;
+    margin: 0;
+   
+}
+.card img{
+    transition: .3s;
+}
+.card .cardDit{
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+    background-color: white;
+    transition: .2s;
+    padding-left: 10px;
+}
+.card:hover .cardDit{
+    bottom: 0;
+}
+.card:hover img{
+    transform: translate(0px, -10px);
+
+
+}
+/* team End */
+
+
+footer{
+    
+}
