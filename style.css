@@ -81,7 +81,7 @@ a{
 .card .cardDit{
     position: absolute;
     left: 0;
-    bottom: -100px;
+    bottom: -105px;
     background-color: white;
     transition: .2s;
     padding-left: 10px;
