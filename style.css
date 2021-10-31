@@ -95,6 +95,21 @@ a{
 
 }
 /* team End */
+.paybill{
+    background-image: url(image/pay.jpg);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.paybill button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+
+}
 
 
 footer{
